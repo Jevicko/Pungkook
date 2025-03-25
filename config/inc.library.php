@@ -2,16 +2,6 @@
 include "inc.connection.php";
 date_default_timezone_set("Asia/Jakarta");
 
-function getNmsekolah($koneksidb){
-    $sistem = mysqli_prepare($koneksidb,"SELECT nmsekolah FROM sistem WHERE noapk = $_SESSION[noapk]");
-    mysqli_stmt_execute($sistem);
-    mysqli_stmt_bind_result($sistem,$nmsekolah);
-    mysqli_stmt_fetch($sistem);
-    mysqli_stmt_close($sistem);
-
-    return $nmsekolah;
-}
-
 function persentase($pembilang,$penyebut){
     try {
         $persentase = ($pembilang/$penyebut) * 100;
