@@ -18,5 +18,6 @@ elseif($pg=="incoming_source"){ include "content/incoming_goods/incoming_source.
 elseif($pg=="incoming_view"){ include "content/incoming_goods/incoming_view.php"; }
 
 //general journal
-elseif($pg=="journal_source"){ include "content/incoming_goods/incoming_source.php"; }
+elseif($pg=="journal_source"){ include "content/general_journal/journal_source.php"; }
 elseif($pg=="journal_view"){ include "content/general_journal/journal_view.php"; }
+elseif($pg=="general_journal"){ include "journal/General_Journal.php"; }

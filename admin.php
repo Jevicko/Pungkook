@@ -88,11 +88,12 @@ License: You must have a valid license purchased only from themeforest(the above
                         <font size="6" color='yellow'>S</font>
                         <font size="6" color='green'>I</font>
                         <font size="3" color='white'>Pustaka</font> -->
-    <div style="display: inline-block; letter-spacing: -3px; transform: translateX(-10px);">
-    <span style="font-size: 2.5rem; color: white;">P</span>
-    <span style="font-size: 2.5rem; color: white;">T</span>
-    <span style="font-size: 2.5rem; color: white;">.</span>
-</div> <span style="font-size: 2.5rem; color: white;">Pungkook</span> 
+    <div style="display: inline-block; letter-spacing: -1px; transform: translate(5px, 7px);">
+    <span style="font-size: 2.1rem; color: white;">P</span>
+    <span style="font-size: 2.1rem; color: white;">T</span>
+    <span style="font-size: 2.1rem; color: white;">.</span> 
+    <span style="font-size: 2.1rem; color: white; margin-left:2px; letter-spacing: 0.1px">Pungkook</span> 
+    <span style="font-size: 2.1rem; color: white; margin-left:2px; letter-spacing: 0.1px">Indonesia</span></div>
 
 
 
@@ -105,7 +106,14 @@ License: You must have a valid license purchased only from themeforest(the above
       <ul class="nav navbar-bar" style="display:flex; justify-content: space-between;">
         <!-- <li class="classic-menu-dropdown"><a href="?content=home">Halaman Utama</a></li> -->
         <li><a href="?content=incoming_view" style="text-decoration: none;">INCOMING GOODS</a></li>
-        <li><a href="?content=journal_view" style="text-decoration: none;">GENERAL JOURNAL</a></li>
+        <li><a href="?content=general_journal" style="text-decoration: none;">GENERAL JOURNAL</a></li>
+
+        <!-- Tambahan elemen untuk bulan dan profil -->
+  <div style="display: flex; align-items: center; gap: 15px; position: absolute; right: 20px;">
+    <img src="moon-icon.png" alt="Dark Mode" style="width: 24px; height: 24px; cursor: pointer;">
+    <img src="profile-icon.png" alt="Profile" style="width: 32px; height: 32px; border-radius: 50%; cursor: pointer;">
+  </div>
+        
           
               <!-- <li class="dropdown-submenu"><a href="#" class="dropdown-item">CD</a>
                   <ul class="dropdown-menu">

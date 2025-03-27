@@ -97,6 +97,15 @@
                 <input type="number" id="bcMonth" class="border border-gray-300 p-1 mx-1 input-small" value="3">
                 <input type="number" id="bcYear" class="border border-gray-300 p-1 input-small" value="2025" style="width: 80px;">
             </div>
+
+            <script>
+            document.addEventListener("DOMContentLoaded", function () {
+            let today = new Date();
+            document.getElementById("bcDate").value = today.getDate();
+            document.getElementById("bcMonth").value = today.getMonth() + 1; // Bulan dimulai dari 0, jadi perlu +1
+            document.getElementById("bcYear").value = today.getFullYear();});
+        </script>
+
         </div>
         <table class="w-full border-collapse">
             <thead class="table-header">
@@ -184,7 +193,7 @@
                 <button class="bg-gray-100 border border-gray-300 text-black px-4 py-2 rounded hover:bg-gray-300 hover:border-gray-400 active:bg-gray-400 active:border-gray-500">Delete on Rec</button>
             </div>
             <div class="space-x-2">
-                <button class="bg-gray-100 border border-gray-300 text-black px-4 py-2 rounded shadow-[3px_3px_5px_rgba(0,0,0,0.15)] hover:shadow-[4px_4px_6px_rgba(0,0,0,0.2)] active:shadow-[2px_2px_3px_rgba(0,0,0,0.15)]">Save</button>
+                <button class="bg-gray-100 border border-gray-300 text-black px-4 py-2 rounded hover:bg-gray-300 hover:border-gray-400 active:bg-gray-400 active:border-gray-500">Save</button>
                 <button class="bg-gray-100 border border-gray-300 text-black px-4 py-2 rounded hover:bg-gray-300 hover:border-gray-400 active:bg-gray-400 active:border-gray-500">Clear</button>
             </div>
             <div class="space-x-2">
@@ -272,6 +281,7 @@
                     </tbody>
                 </table>
             </div>
+            </div>
             <div class="w-3/4 border border-gray-300 ml-2">
             <table class="w-full text-lg">
 
@@ -328,7 +338,7 @@
                     </tbody>
                 </table>
             </div>
-        </div>
+        
         <div class="mt-4 bg-yellow-200">
             <div class="flex justify-between items-center">
                 <div class="flex items-center bg-white p-2">
@@ -339,7 +349,7 @@
                 <div class="flex space-x-2">
                     <button type="button" class="bg-gray-100 border border-gray-300 text-black px-4 py-2 rounded hover:bg-gray-300 hover:border-gray-400 active:bg-gray-400 active:border-gray-500">PRINT VOUCHER</button>
                     <button type="button" class="bg-gray-100 border border-gray-300 text-black px-4 py-2 rounded hover:bg-gray-300 hover:border-gray-400 active:bg-gray-400 active:border-gray-500">EDIT</button>
-                    <button type="button" class="bg-gray-100 border border-gray-300 text-black px-4 py-2 rounded shadow-[3px_3px_5px_rgba(0,0,0,0.15)] hover:shadow-[4px_4px_6px_rgba(0,0,0,0.2)] active:shadow-[2px_2px_3px_rgba(0,0,0,0.15)]">DELETE</button>
+                    <button type="button" class="bg-gray-100 border border-gray-300 text-black px-4 py-2 rounded hover:bg-gray-300 hover:border-gray-400 active:bg-gray-400 active:border-gray-500">DELETE</button>
                 </div>
             </div>
         </div>

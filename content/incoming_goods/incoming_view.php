@@ -6,6 +6,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
+<style>
+    .table-cell {
+            border: 1px solid #ccc;
+            padding: 5px;
+            padding: 5px;
+        }
+</style>
 <body class="bg-gray-100 p-4">
     <div class="bg-green-900 text-yellow-200 p-2 flex justify-center items-center h-12   ">
         <h1 class="text-lg font-bold">Incoming Goods</h1>
@@ -39,8 +46,8 @@
         
          </div>
             <div class="mt-2 flex">
-            <div class="w-2/5">
-                <table class="w-full border border-gray-300">
+            <div class="w-2/4">
+                <table class="w-full border border-gray-300 text-lg">
                     <thead class="bg-gray-200">
                         <tr>
                             <th class="border border-gray-300 p-2">Supplier</th>
@@ -51,44 +58,44 @@
                         </tr>
                     </thead>
                     <tbody>
+                    <tr>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+        </tr>
                         <tr>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
+                        <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
                         </tr>
                         <tr>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
+                        <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
                         </tr>
                         <tr>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
+                        <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
                         </tr>
                         <tr>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                        </tr>
-                        <tr>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
+                        <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
                         </tr>
                     </tbody>
                 </table>
-                <div class="mt-2">
+                <div class="mt-5">
                     <label for="description-usage" class="text-sm">Description of Usage:</label>
                     <input type="text" id="description-usage" class="border border-gray-300 p-1 w-full">
                 </div>
@@ -110,7 +117,7 @@
                     <h2 class="text-xl font-extrabold flex-1 text-center">List of Items</h2>
                     <button class="bg-gray-200 border border-gray-300 p-1">Button1</button>
                 </div>
-                <table class="w-full border border-gray-300 mt-2">
+                <table class="w-full border border-gray-300 text-lg">
                     <thead class="bg-gray-200">
                         <tr>
                             <th class="border border-gray-300 p-2">Item Number</th>
@@ -122,45 +129,45 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
+                        <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
                         </tr>
                         <tr>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
+                            <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
                         </tr>
                         <tr>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
+                            <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
                         </tr>
                         <tr>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
+                            <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
                         </tr>
                         <tr>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
-                            <td class="border border-gray-300 p-3"></td>
+                            <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
                         </tr>
                     </tbody>
                 </table>
                 <div class="flex mt-2">
                     <div class="w-1/2">
-                        <table class="w-full border border-gray-300">
+                        <table class="w-full border border-gray-300 text-lg">
                             <thead class="bg-gray-200">
                                 <tr>
                                     <th class="border border-gray-300 p-2">Journal</th>
@@ -170,29 +177,29 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="border border-gray-300 p-3"></td>
-                                    <td class="border border-gray-300 p-3"></td>
-                                    <td class="border border-gray-300 p-3"></td>
+                                <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
                                 </tr>
                                 <tr>
-                                    <td class="border border-gray-300 p-3"></td>
-                                    <td class="border border-gray-300 p-3"></td>
-                                    <td class="border border-gray-300 p-3"></td>
+                                <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
                                 </tr>
                                 <tr>
-                                    <td class="border border-gray-300 p-3"></td>
-                                    <td class="border border-gray-300 p-3"></td>
-                                    <td class="border border-gray-300 p-3"></td>
+                                <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
                                 </tr>
                                 <tr>
-                                    <td class="border border-gray-300 p-3"></td>
-                                    <td class="border border-gray-300 p-3"></td>
-                                    <td class="border border-gray-300 p-3"></td>
+                                <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
                                 </tr>
                                 <tr>
-                                    <td class="border border-gray-300 p-3"></td>
-                                    <td class="border border-gray-300 p-3"></td>
-                                    <td class="border border-gray-300 p-3"></td>
+                                <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
+                    <td class="table-cell"><input type="text" class="input-field"></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -235,7 +242,7 @@
                     </div>
                 </div>
                 <div class="flex justify-between items-center mt-2">
-                    <button class="bg-gray-200 border border-gray-300 p-2 w-32">SET ACCOUNT</button>
+                    <button class="bg-gray-200 border border-gray-300 p-8 w-52 transform translate-x-4">SET ACCOUNT</button>
                     <div class="flex flex-col space-y-1">
                         <div class="flex items-center space-x-1">
                             <input type="checkbox" id="ppn-tax" class="border border-gray-300">
